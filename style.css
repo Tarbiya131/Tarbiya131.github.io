@@ -1,0 +1,143 @@
+body{
+    padding-left: 50px
+}
+.header{
+    width: 300px;;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    justify-content: space-between;
+    margin-left: 1000px;
+}
+.about_me1{
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0;
+}
+#fs_40{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+   
+}
+#fs_16{font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:20px ;
+
+}
+#red_button{
+    width: 200px;
+    height: 40px;
+    background-color: #FF6464;
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.my_foto{
+    margin-top: 70px;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    background-image: url(./Снимок\ экрана\ 2022-07-07\ в\ 19.51.02.png);
+}
+.aboutme_foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 10vh;
+}
+#fs_24{font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #21243D;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+#fs_14{font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #00A8CC;
+}
+.blue_box{
+    width: 100%;
+    height: 60vh;
+    background-color: #bae8f2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.date_loc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 380px;
+}
+.box_f{width: 500px;
+    height: 300px;
+    margin-left: 30px;
+    background-color: white;
+    padding-left: 20px;
+    
+}
+#fs_26{font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+
+}
+.two_box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.foto{
+
+    margin-top: 70px;
+    width: 240px;
+    height:160px;
+    border-radius: 5px;
+}
+.foto_desc{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Features{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.footer{margin-top: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 500px;
+}
+.links{width: 300px;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media (max-width: 768px){
+    .aboutme_foto{
+        flex-direction: column-reverse;
+    }
+}
